@@ -35,6 +35,9 @@ h1{
 .avatar{
   width: 210px;
   padding: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .vector{
   width: 60%;
