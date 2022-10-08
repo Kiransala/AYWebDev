@@ -1,32 +1,41 @@
-/*body {
+
+body{
+  margin: 0;
+  text-align: center;
+  
+}
+.main{
   color: #fff;
   background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
   background-position: center;
-  height: 100vh;
-  min-height: 80rem;
-  max-height: 120rem;
-  position: relative;
-}*/
-body{
-  margin: 0;
-}
-.top-container{
-  background-color: aqua;
-  margin: 0;
+
+
 }
 
 h1{
+
+  font-size: 4rem;
+  color: black;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 800;
+  font-family: sans-serif;
   margin-top: 0;
 }
-
-.middle-container{
-  height: 200px;
-  width: 200px;
-  background-color: brown;
+.text-primary {
+  color: #333;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+  line-height: 1.6;
+  font-family: sans-serif;
+  
 }
 
-.bottem-container{
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+.avatar{
+  width: 210px;
+  padding: 40px;
+}
+.vector{
+  width: 60%;
 }
